@@ -3,7 +3,7 @@ import re
 import platform
 
 from setuptools import find_packages, setup
-
+# finally
 
 def get_version(): 
     """Get package version from app_info.py file"""
