@@ -5,7 +5,7 @@ import platform
 from setuptools import find_packages, setup
 
 
-def get_version():
+def get_version(): 
     """Get package version from app_info.py file"""
     filename = "anylabeling/app_info.py"
     with open(filename, encoding="utf-8") as f:
